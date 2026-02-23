@@ -1,26 +1,28 @@
+# JSON Database (Challenging Level)
 
----
+## Project Overview
+This project is a challenging-level Java Core application implementing a JSON-based client-server database.
 
-Click **Commit changes** directly to `main`.
+The application:
+- Processes JSON requests (set, get, delete)
+- Stores data in persistent storage
+- Uses Maven as a build tool
+- Includes unit testing with JUnit 5
+- Generates code coverage reports with JaCoCo (≥80%)
+- Runs static analysis with Checkstyle
 
----
+## Technologies Used
+- Java 17
+- Maven
+- JUnit 5
+- JaCoCo
+- Checkstyle
+- Gson
+- JCommander
 
-# ✅ STEP 2 — Verify Final Checklist
+## Build & Run
 
-Make sure GitHub repo shows:
+To build and verify:
 
-- pom.xml
-- src/
-- .gitignore
-- README.md
-
-If yes → GitHub submission is READY.
-
----
-
-Now tell me:
-
-1. README added?
-2. Repo looks clean?
-
-Then I’ll help you draft the exact message to send your mentor along with the GitHub link.
+```bash
+mvn clean verify
